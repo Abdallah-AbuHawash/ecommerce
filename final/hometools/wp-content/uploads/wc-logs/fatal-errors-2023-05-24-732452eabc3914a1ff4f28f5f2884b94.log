@@ -1,0 +1,14 @@
+2023-05-24T12:16:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UtilsWpf" not found in C:\xampp\htdocs\hometools\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\hometools\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\hometools\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\hometools\wp-admin\includes\plugin.php(1265): do_action('uninstall_woo-p...')
+#3 C:\xampp\htdocs\hometools\wp-admin\includes\plugin.php(958): uninstall_plugin('woo-product-fil...')
+#4 C:\xampp\htdocs\hometools\wp-admin\includes\ajax-actions.php(4705): delete_plugins(Array)
+#5 C:\xampp\htdocs\hometools\wp-includes\class-wp-hook.php(308): wp_ajax_delete_plugin('')
+#6 C:\xampp\htdocs\hometools\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\hometools\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\hometools\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown in C:\xampp\htdocs\hometools\wp-includes\class-wp-hook.php on line 308
+

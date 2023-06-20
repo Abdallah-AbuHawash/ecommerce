@@ -1,0 +1,727 @@
+0000.001 (0) Opened log file at time: Sun, 14 May 2023 10:02:32 +0000 on https://localhost/hometools
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.2.0 (apache2handler, Windows NT ABDALLAHHP 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 104.5M | 106M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 122571.2 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.018 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.022 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2023-05-14 10:02:32
+0000.025 (0) Semaphore (fd, wp_options) reset to 1
+0000.028 (0) Set semaphore last lock (fd) time to 2023-05-14 10:02:32
+0000.029 (0) Semaphore lock (fd) complete
+0000.036 (0) Backup run: resumption=0, nonce=40aac3382e06, file_nonce=40aac3382e06 begun at=1684058552 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1684058852) in case this run gets aborted
+0000.052 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 414, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0000.055 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1970, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0000.059 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3592, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0000.060 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3592, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0000.065 (0) Checking if we have a zip executable available
+0000.068 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.070 (0) Creation of backups of directories: beginning
+0000.080 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.085 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3385, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0014.206 (0) Total entities for the zip file: 2797 directories, 14081 files (0 skipped as non-modified), 180.6 MB
+0014.208 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 184954.8 KB, split: 409600 KB)
+0014.260 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.291 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.322 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0014.348 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.375 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0014.404 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0014.434 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0014.462 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0014.488 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0014.517 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0014.546 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0014.572 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0014.602 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0014.629 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0014.655 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0014.685 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0014.713 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0014.741 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0014.769 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0014.799 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0014.826 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0014.854 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0014.882 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0014.913 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0014.942 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0014.971 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0015.000 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0015.028 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0015.056 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0015.086 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0015.113 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0015.149 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0015.176 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0015.206 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0015.238 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0015.271 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0015.304 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0015.338 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0015.369 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0015.404 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0015.437 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0015.475 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0015.513 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0015.546 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0015.581 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0015.614 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0015.646 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0015.680 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0015.718 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0015.753 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0015.786 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0015.819 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0015.856 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0015.891 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0015.930 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0015.963 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0015.997 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0016.030 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0016.061 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0016.096 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0016.133 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0016.170 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0016.215 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0016.250 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0016.291 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0016.327 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0016.362 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0016.398 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0016.435 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0016.470 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0016.515 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0016.553 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0016.592 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0016.637 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0016.683 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0016.726 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0016.768 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0016.805 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0016.845 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0016.886 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0016.923 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0016.963 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0017.001 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0017.039 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0017.080 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0017.119 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0017.160 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0017.198 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8800 files added (on-disk size: 0 KB)
+0017.238 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 8900 files added (on-disk size: 0 KB)
+0017.281 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0017.319 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0017.355 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0017.398 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0017.438 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9400 files added (on-disk size: 0 KB)
+0017.481 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9500 files added (on-disk size: 0 KB)
+0017.518 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9600 files added (on-disk size: 0 KB)
+0017.551 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9700 files added (on-disk size: 0 KB)
+0017.590 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9800 files added (on-disk size: 0 KB)
+0017.634 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 9900 files added (on-disk size: 0 KB)
+0017.669 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10000 files added (on-disk size: 0 KB)
+0017.708 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10100 files added (on-disk size: 0 KB)
+0017.745 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10200 files added (on-disk size: 0 KB)
+0017.778 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10300 files added (on-disk size: 0 KB)
+0017.813 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10400 files added (on-disk size: 0 KB)
+0017.844 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10500 files added (on-disk size: 0 KB)
+0017.874 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10600 files added (on-disk size: 0 KB)
+0017.904 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10700 files added (on-disk size: 0 KB)
+0017.935 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10800 files added (on-disk size: 0 KB)
+0017.969 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 10900 files added (on-disk size: 0 KB)
+0018.003 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11000 files added (on-disk size: 0 KB)
+0018.036 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11100 files added (on-disk size: 0 KB)
+0018.070 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11200 files added (on-disk size: 0 KB)
+0018.100 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11300 files added (on-disk size: 0 KB)
+0018.132 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11400 files added (on-disk size: 0 KB)
+0018.162 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11500 files added (on-disk size: 0 KB)
+0018.197 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11600 files added (on-disk size: 0 KB)
+0018.229 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11700 files added (on-disk size: 0 KB)
+0018.260 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11800 files added (on-disk size: 0 KB)
+0018.293 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 11900 files added (on-disk size: 0 KB)
+0018.335 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12000 files added (on-disk size: 0 KB)
+0018.366 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12100 files added (on-disk size: 0 KB)
+0018.399 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12200 files added (on-disk size: 0 KB)
+0018.430 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12300 files added (on-disk size: 0 KB)
+0018.459 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12400 files added (on-disk size: 0 KB)
+0018.488 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12500 files added (on-disk size: 0 KB)
+0018.520 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12600 files added (on-disk size: 0 KB)
+0018.550 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12700 files added (on-disk size: 0 KB)
+0018.580 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12800 files added (on-disk size: 0 KB)
+0018.611 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 12900 files added (on-disk size: 0 KB)
+0018.643 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13000 files added (on-disk size: 0 KB)
+0018.674 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13100 files added (on-disk size: 0 KB)
+0018.706 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13200 files added (on-disk size: 0 KB)
+0018.735 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13300 files added (on-disk size: 0 KB)
+0018.763 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13400 files added (on-disk size: 0 KB)
+0018.797 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13500 files added (on-disk size: 0 KB)
+0018.826 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13600 files added (on-disk size: 0 KB)
+0018.856 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13700 files added (on-disk size: 0 KB)
+0018.885 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13800 files added (on-disk size: 0 KB)
+0018.914 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 13900 files added (on-disk size: 0 KB)
+0018.944 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp: 14000 files added (on-disk size: 0 KB)
+0416.976 (1) Opened log file at time: Sun, 14 May 2023 10:09:29 +0000 on https://localhost/hometools
+0416.979 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.2.0 (apache2handler, Windows NT ABDALLAHHP 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 90.9M | 96M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0416.982 (1) Free space on disk containing Updraft's temporary directory: 122520.3 MB
+0416.984 (1) Requesting backup semaphore lock (40aac3382e06)
+0416.989 (1) [Debug] Lock option (updraft_lock_40aac3382e06, wp_options) was created in the database
+0416.990 (1) [Info] Lock (updraft_lock_40aac3382e06, wp_options) acquired after initialising the database
+0416.995 (1) Backup run: resumption=1, nonce=40aac3382e06, file_nonce=40aac3382e06 begun at=1684058552 (417s ago), job type=backup
+0416.999 (1) Scheduling a resumption (2) after 300 seconds (1684059269) in case this run gets aborted
+0417.011 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 414, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0417.014 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1970, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0417.017 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3592, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0417.022 (1) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3592, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0417.027 (1) Checking if we have a zip executable available
+0417.031 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0417.033 (1) Creation of backups of directories: had begun; will resume
+0417.037 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0417.044 (1) Terminate: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1684058969, time_now=1684058969, diff=0, size=51070.2KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0417.049 (1) Rescheduling resumption 2: moving to 420 seconds from now (1684059389)
+0417.055 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0805.226 (0) The time we have been running (805.2) is approaching the resumption interval (300) - increasing resumption interval to 836
+0805.393 (0) Creating zip file manifest (backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.list-temp.tmp)
+0805.479 (0) Successfully created zip file manifest (size: 1237706)
+0806.230 (0) Created plugins zip (0) - 69216.9 KB in 806.1 s (85.9 KB/s) (sha1: cb4be325ddc4d9ffbf49c6e65e6d7d7d220e1aab, sha256: 748b0faf9c0d735c2756854b8098fda3bc52f25d1dee0b9e41c7fabaf205ce39)
+0806.252 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0806.254 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_instance is deprecated (line 566, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0806.256 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3daa4b970cd0dde15260048aa9750d45)
+0808.949 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0811.880 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googledrive::$root_id is deprecated (line 106, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\methods\googledrive.php)
+0814.870 (0) Google Drive: quota usage: used=2768.4 MB, total=15360 MB, available=12591.6 MB
+0814.887 (0) Google Drive: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Vow0ptT68NjJbckRs8ROj356LASENNnY)
+0814.889 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0818.386 (0) The time we have been running (818.4) is approaching the resumption interval (836) - increasing resumption interval to 849
+0818.391 (0) Googledrive chunked upload: 1.5 % uploaded (1048576)
+0820.432 (0) The time we have been running (820.4) is approaching the resumption interval (849) - increasing resumption interval to 851
+0820.439 (0) Googledrive chunked upload: 3 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 109.6 / 134)
+0823.732 (0) The time we have been running (823.7) is approaching the resumption interval (851) - increasing resumption interval to 854
+0823.736 (0) Googledrive chunked upload: 5.9 % uploaded (4194304)
+0827.716 (0) The time we have been running (827.7) is approaching the resumption interval (854) - increasing resumption interval to 858
+0827.719 (0) Googledrive chunked upload: 8.9 % uploaded (6291456)
+0831.314 (0) The time we have been running (831.3) is approaching the resumption interval (858) - increasing resumption interval to 862
+0831.318 (0) Googledrive chunked upload: 11.8 % uploaded (8388608)
+0834.159 (0) The time we have been running (834.2) is approaching the resumption interval (862) - increasing resumption interval to 865
+0834.163 (0) Googledrive chunked upload: 14.8 % uploaded (10485760)
+0836.853 (0) The time we have been running (836.8) is approaching the resumption interval (865) - increasing resumption interval to 867
+0836.857 (0) Googledrive chunked upload: 17.8 % uploaded (12582912)
+0839.519 (0) The time we have been running (839.5) is approaching the resumption interval (867) - increasing resumption interval to 870
+0839.524 (0) Googledrive chunked upload: 20.7 % uploaded (14680064)
+0840.914 (2) Opened log file at time: Sun, 14 May 2023 10:16:33 +0000 on https://localhost/hometools
+0840.918 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.2.0 (apache2handler, Windows NT ABDALLAHHP 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 90.8M | 96M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0840.921 (2) Free space on disk containing Updraft's temporary directory: 122519.4 MB
+0840.923 (2) Requesting backup semaphore lock (40aac3382e06)
+0840.927 (2) [Info] Lock (updraft_lock_40aac3382e06, wp_options) acquired
+0840.934 (2) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1684059392.3, time_now=1684059393.7, diff=1, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0840.940 (2) A new resumption will be scheduled to prevent the job ending
+0840.943 (2) Rescheduling resumption 3: moving to 900 seconds from now (1684060293)
+0840.952 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 870 + 120 = 990
+0847.914 (0) The time we have been running (847.9) is approaching the resumption interval (870) - increasing resumption interval to 878
+0847.918 (0) Googledrive chunked upload: 23.7 % uploaded (16777216)
+0852.312 (0) The time we have been running (852.3) is approaching the resumption interval (878) - increasing resumption interval to 883
+0852.316 (0) Googledrive chunked upload: 26.6 % uploaded (18874368)
+0855.257 (0) The time we have been running (855.3) is approaching the resumption interval (883) - increasing resumption interval to 886
+0855.261 (0) Googledrive chunked upload: 29.6 % uploaded (20971520)
+0863.338 (0) The time we have been running (863.3) is approaching the resumption interval (886) - increasing resumption interval to 894
+0863.342 (0) Googledrive chunked upload: 32.5 % uploaded (23068672)
+0866.695 (0) The time we have been running (866.7) is approaching the resumption interval (894) - increasing resumption interval to 897
+0866.699 (0) Googledrive chunked upload: 35.5 % uploaded (25165824)
+0870.686 (0) The time we have been running (870.7) is approaching the resumption interval (897) - increasing resumption interval to 901
+0870.689 (0) Googledrive chunked upload: 38.5 % uploaded (27262976)
+0878.071 (0) The time we have been running (878.1) is approaching the resumption interval (901) - increasing resumption interval to 909
+0878.074 (0) Googledrive chunked upload: 41.4 % uploaded (29360128)
+0898.212 (0) The time we have been running (898.2) is approaching the resumption interval (909) - increasing resumption interval to 929
+0898.215 (0) Googledrive chunked upload: 44.4 % uploaded (31457280)
+0901.454 (0) The time we have been running (901.4) is approaching the resumption interval (929) - increasing resumption interval to 932
+0901.457 (0) Googledrive chunked upload: 47.3 % uploaded (33554432)
+0904.307 (0) The time we have been running (904.3) is approaching the resumption interval (932) - increasing resumption interval to 935
+0904.311 (0) Googledrive chunked upload: 50.3 % uploaded (35651584)
+0907.086 (0) The time we have been running (907.1) is approaching the resumption interval (935) - increasing resumption interval to 938
+0907.091 (0) Googledrive chunked upload: 53.3 % uploaded (37748736)
+0911.394 (0) The time we have been running (911.4) is approaching the resumption interval (938) - increasing resumption interval to 942
+0911.397 (0) Googledrive chunked upload: 56.2 % uploaded (39845888)
+0914.462 (0) The time we have been running (914.5) is approaching the resumption interval (942) - increasing resumption interval to 945
+0914.466 (0) Googledrive chunked upload: 59.2 % uploaded (41943040)
+0919.183 (0) The time we have been running (919.2) is approaching the resumption interval (945) - increasing resumption interval to 950
+0919.187 (0) Googledrive chunked upload: 62.1 % uploaded (44040192)
+0925.227 (0) The time we have been running (925.2) is approaching the resumption interval (950) - increasing resumption interval to 956
+0925.231 (0) Googledrive chunked upload: 65.1 % uploaded (46137344)
+0928.670 (0) The time we have been running (928.7) is approaching the resumption interval (956) - increasing resumption interval to 959
+0928.674 (0) Googledrive chunked upload: 68.1 % uploaded (48234496)
+0932.190 (0) The time we have been running (932.2) is approaching the resumption interval (959) - increasing resumption interval to 963
+0932.194 (0) Googledrive chunked upload: 71 % uploaded (50331648)
+0935.964 (0) The time we have been running (936) is approaching the resumption interval (963) - increasing resumption interval to 966
+0935.968 (0) Googledrive chunked upload: 74 % uploaded (52428800)
+0938.403 (0) The time we have been running (938.4) is approaching the resumption interval (966) - increasing resumption interval to 969
+0938.407 (0) Googledrive chunked upload: 76.9 % uploaded (54525952 - increasing chunk size to 4096 KB - memory usage: 109.6 / 134)
+0942.392 (0) The time we have been running (942.4) is approaching the resumption interval (969) - increasing resumption interval to 973
+0942.395 (0) Googledrive chunked upload: 82.8 % uploaded (58720256)
+0946.361 (0) The time we have been running (946.4) is approaching the resumption interval (973) - increasing resumption interval to 977
+0946.365 (0) Googledrive chunked upload: 88.8 % uploaded (62914560)
+0950.240 (0) The time we have been running (950.2) is approaching the resumption interval (977) - increasing resumption interval to 981
+0950.243 (0) Googledrive chunked upload: 94.7 % uploaded (67108864)
+0954.613 (0) The time we have been running (954.6) is approaching the resumption interval (981) - increasing resumption interval to 985
+0954.617 (0) Googledrive chunked upload: 100 % uploaded (67108864)
+0954.622 (0) Google Drive: OK: Archive backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip uploaded in 139.73 seconds
+0954.625 (0) Recording as successfully uploaded: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip
+0954.640 (0) Deleting local file: backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip: OK
+0954.650 (0) Beginning creation of dump of themes (split every: 400 MB)
+0954.931 (0) Total entities for the zip file: 100 directories, 423 files (0 skipped as non-modified), 8 MB
+0954.934 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 8143.7 KB, split: 409600 KB)
+0954.977 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0955.015 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0955.051 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0955.085 (0) Zip: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0959.202 (0) The time we have been running (959.2) is approaching the resumption interval (985) - increasing resumption interval to 990
+0959.214 (0) Creating zip file manifest (backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.list-temp.tmp)
+0959.221 (0) Successfully created zip file manifest (size: 35142)
+0959.277 (0) Created themes zip (0) - 3214.4 KB in 4.6 s (695.8 KB/s) (sha1: 53b6fe78640122c090e769d9a2139734a75556ed, sha256: 6073cfa2a64aed6089d5f265a38221f363aff32fc7531929d43b1c54a85cc3f2)
+0959.285 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0959.287 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3daa4b970cd0dde15260048aa9750d45)
+0959.289 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0960.174 (0) Google Drive: quota usage: used=2836 MB, total=15360 MB, available=12524 MB
+0960.187 (0) Google Drive: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip: Attempting to upload to Google Drive (into folder id: 1Vow0ptT68NjJbckRs8ROj356LASENNnY)
+0960.189 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0962.857 (0) The time we have been running (962.9) is approaching the resumption interval (990) - increasing resumption interval to 993
+0962.861 (0) Googledrive chunked upload: 31.9 % uploaded (1048576)
+0964.615 (0) The time we have been running (964.6) is approaching the resumption interval (993) - increasing resumption interval to 995
+0964.618 (0) Googledrive chunked upload: 63.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 107.6 / 136)
+0967.259 (0) The time we have been running (967.2) is approaching the resumption interval (995) - increasing resumption interval to 998
+0967.262 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0967.267 (0) Google Drive: OK: Archive backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip uploaded in 7.08 seconds
+0967.269 (0) Recording as successfully uploaded: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip
+0967.273 (0) Deleting local file: backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip: OK
+0967.281 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0967.283 (0) Looking for candidates to backup in: C:\xampp\htdocs\hometools/wp-content/uploads
+0967.285 (0) finding files: 2023: adding to list (1)
+0967.286 (0) finding files: elementor: adding to list (2)
+0967.287 (0) finding files: wc-logs: adding to list (3)
+0967.289 (0) finding files: woocommerce-placeholder.png: adding to list (4)
+0967.290 (0) finding files: woocommerce_uploads: adding to list (5)
+0967.291 (0) finding files: wpforms: adding to list (6)
+0967.293 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0967.341 (0) Total entities for the zip file: 9 directories, 51 files (0 skipped as non-modified), 2.6 MB
+0967.343 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 2616.9 KB, split: 409600 KB)
+0967.728 (0) Creating zip file manifest (backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip.list-temp.tmp)
+0967.731 (0) Successfully created zip file manifest (size: 2815)
+0967.759 (0) Created uploads zip (0) - 2030.8 KB in 0.5 s (4426.5 KB/s) (sha1: b1a7effc548bedf837878a87d4a9bfb1aa7b133b, sha256: 5b16d2a4d53a6cf726f76574ce38da536c149d659eadb2d770eebb4d49976218)
+0967.766 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0967.768 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3daa4b970cd0dde15260048aa9750d45)
+0967.769 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0968.576 (0) Google Drive: quota usage: used=2839.1 MB, total=15360 MB, available=12520.9 MB
+0968.590 (0) Google Drive: backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Vow0ptT68NjJbckRs8ROj356LASENNnY)
+0968.591 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0971.039 (0) The time we have been running (971) is approaching the resumption interval (998) - increasing resumption interval to 1002
+0971.042 (0) Googledrive chunked upload: 50.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 107.5 / 136)
+0973.702 (0) The time we have been running (973.7) is approaching the resumption interval (1002) - increasing resumption interval to 1004
+0973.705 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0973.711 (0) Google Drive: OK: Archive backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip uploaded in 5.12 seconds
+0973.713 (0) Recording as successfully uploaded: backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip
+0973.719 (0) Deleting local file: backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip: OK
+0973.728 (0) Beginning backup of other directories found in the content directory (index: 0)
+0973.730 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0973.732 (0) Looking for candidates to backup in: C:\xampp\htdocs\hometools/wp-content
+0973.734 (0) finding files: index.php: adding to list (1)
+0973.736 (0) finding files: plugins: skipping: this is the plugins directory
+0973.738 (0) finding files: themes: skipping: this is the themes directory
+0973.739 (0) finding files: updraft: skipping: this is the updraft directory
+0973.741 (0) finding files: upgrade: skipping: excluded by options
+0973.743 (0) finding files: uploads: skipping: this is the uploads directory
+0973.752 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0973.754 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 409600 KB)
+0973.768 (0) Creating zip file manifest (backup_2023-05-14-1002_hometools_40aac3382e06-others.zip.list-temp.tmp)
+0973.771 (0) Successfully created zip file manifest (size: 43)
+0973.782 (0) Created others zip (0) - 0.1 KB in 0 s (4.7 KB/s) (sha1: 65cfac559d2bcf7ab4d2cc8d95ae6c7c545e9a63, sha256: 53378c24b9441a47d270d8d863fd9e952e7aa9330182ab5d40a3702793acc9a5)
+0973.789 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0973.792 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3daa4b970cd0dde15260048aa9750d45)
+0973.793 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0974.555 (0) Google Drive: quota usage: used=2841.1 MB, total=15360 MB, available=12518.9 MB
+0974.569 (0) Google Drive: backup_2023-05-14-1002_hometools_40aac3382e06-others.zip: Attempting to upload to Google Drive (into folder id: 1Vow0ptT68NjJbckRs8ROj356LASENNnY)
+0974.570 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0977.503 (0) The time we have been running (977.5) is approaching the resumption interval (1004) - increasing resumption interval to 1008
+0977.506 (0) Googledrive chunked upload: 100 % uploaded
+0977.512 (0) Google Drive: OK: Archive backup_2023-05-14-1002_hometools_40aac3382e06-others.zip uploaded in 2.94 seconds
+0977.514 (0) Recording as successfully uploaded: backup_2023-05-14-1002_hometools_40aac3382e06-others.zip
+0977.518 (0) Deleting local file: backup_2023-05-14-1002_hometools_40aac3382e06-others.zip: OK
+0977.533 (0) Saving backup status to database (elements: 8)
+0977.539 (0) Beginning creation of database dump (WordPress DB)
+0977.542 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0977.547 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0978.158 (0) Binary mysqldump: error (code: 2)
+0978.304 (0) Table wp_options: Total expected rows (via COUNT): 556
+0978.452 (0) Table wp_options: Rows added in this batch (next record: 1557): 552 (uncompressed bytes in this segment=3316903) in 0.26 seconds
+0978.473 (0) The time we have been running (978.5) is approaching the resumption interval (1008) - increasing resumption interval to 1009
+0978.481 (0) Table wp_options: finishing file(s) (2, 588.7 KB)
+0978.492 (0) Table wp_users: Total expected rows (via COUNT): 4
+0978.493 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.498 (0) Table wp_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1631) in 0.01 seconds
+0978.506 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0978.523 (0) Table wp_usermeta: Total expected rows (via COUNT): 113
+0978.524 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.533 (0) Table wp_usermeta: Rows added in this batch (next record: 123): 113 (uncompressed bytes in this segment=60081) in 0.02 seconds
+0978.551 (0) Table wp_usermeta: finishing file(s) (2, 7.4 KB)
+0978.572 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 34
+0978.574 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.582 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 43): 34 (uncompressed bytes in this segment=14637) in 0.02 seconds
+0978.600 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2 KB)
+0978.618 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0978.623 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0978.635 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0978.646 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0978.648 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.653 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=730) in 0.01 seconds
+0978.662 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0978.674 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 88
+0978.679 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.685 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 88): 88 (uncompressed bytes in this segment=8321) in 0.01 seconds
+0978.693 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.4 KB)
+0978.706 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0978.708 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.712 (0) Table wp_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=737) in 0.01 seconds
+0978.722 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0978.732 (0) Table wp_comments: Total expected rows (via COUNT): 3
+0978.734 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.736 (0) Table wp_comments: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=2285) in 0.01 seconds
+0978.745 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0978.758 (0) Table wp_links: Total expected rows (via COUNT): 0
+0978.763 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0978.772 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0978.805 (0) Table wp_postmeta: Total expected rows (via COUNT): 712
+0978.807 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.821 (0) Table wp_postmeta: Rows added in this batch (next record: 815): 712 (uncompressed bytes in this segment=454321) in 0.04 seconds
+0978.832 (0) Table wp_postmeta: finishing file(s) (2, 24.6 KB)
+0978.854 (0) Table wp_posts: Total expected rows (via COUNT): 126
+0978.856 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.869 (0) Table wp_posts: Rows added in this batch (next record: 142): 126 (uncompressed bytes in this segment=283484) in 0.03 seconds
+0978.879 (0) Table wp_posts: finishing file(s) (2, 26.2 KB)
+0978.888 (0) Table wp_term_relationships: Total expected rows (approximate): 47
+0978.893 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 47 (uncompressed bytes in this segment=1342) in 0.01 seconds
+0978.903 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0978.917 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 36
+0978.918 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.927 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2179) in 0.02 seconds
+0978.938 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0978.951 (0) Table wp_termmeta: Total expected rows (via COUNT): 25
+0978.953 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.956 (0) Table wp_termmeta: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1675) in 0.01 seconds
+0978.970 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0978.982 (0) Table wp_terms: Total expected rows (via COUNT): 36
+0978.984 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0978.988 (0) Table wp_terms: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=1886) in 0.01 seconds
+0978.996 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0979.007 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 6
+0979.011 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=644) in 0.01 seconds
+0979.020 (0) The time we have been running (979) is approaching the resumption interval (1009) - increasing resumption interval to 1010
+0979.027 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0979.039 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 6
+0979.041 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.044 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 54): 6 (uncompressed bytes in this segment=1800) in 0.01 seconds
+0979.053 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0979.089 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0979.094 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0979.103 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0979.113 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0979.115 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.120 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.01 seconds
+0979.129 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0979.142 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 18
+0979.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.146 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1425) in 0.01 seconds
+0979.157 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.6 KB)
+0979.174 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0979.177 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.01 seconds
+0979.189 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0979.200 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0979.204 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.01 seconds
+0979.212 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0979.227 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 91
+0979.229 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.236 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 665): 91 (uncompressed bytes in this segment=19146) in 0.02 seconds
+0979.246 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.1 KB)
+0979.263 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 71
+0979.265 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.270 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=33718) in 0.01 seconds
+0979.286 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.8 KB)
+0979.296 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 1
+0979.298 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.303 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1242) in 0.01 seconds
+0979.310 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0979.321 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0979.325 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.01 seconds
+0979.334 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0979.342 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0979.345 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.01 seconds
+0979.354 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0979.364 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 2
+0979.366 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.370 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1421) in 0.01 seconds
+0979.381 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0979.391 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 2
+0979.393 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.396 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 142): 2 (uncompressed bytes in this segment=1464) in 0.01 seconds
+0979.405 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0979.416 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0979.420 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0979.428 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0979.438 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0979.443 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.01 seconds
+0979.451 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0979.460 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0979.462 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.467 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=886) in 0.01 seconds
+0979.475 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0979.485 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0979.489 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0979.496 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0979.506 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0979.509 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.01 seconds
+0979.519 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0979.532 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0979.534 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.01 seconds
+0979.548 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0979.558 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0979.561 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.01 seconds
+0979.570 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0979.579 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0979.582 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.01 seconds
+0979.591 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0979.603 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0979.605 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.01 seconds
+0979.615 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0979.625 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 2
+0979.627 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.631 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=896) in 0.01 seconds
+0979.643 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0979.654 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0979.658 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.01 seconds
+0979.667 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0979.679 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0979.681 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.685 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 9): 1 (uncompressed bytes in this segment=2328) in 0.01 seconds
+0979.695 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0979.705 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0979.709 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=812) in 0.01 seconds
+0979.718 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0979.727 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0979.733 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.01 seconds
+0979.742 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0979.754 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0979.757 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.01 seconds
+0979.765 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0979.775 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0979.778 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0979.786 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0979.796 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0979.798 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.01 seconds
+0979.808 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0979.822 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0979.824 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.827 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=912) in 0.01 seconds
+0979.838 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0979.851 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 44
+0979.852 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.858 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 44): 44 (uncompressed bytes in this segment=27066) in 0.01 seconds
+0979.869 (0) Table wp_yoast_indexable: finishing file(s) (2, 5 KB)
+0979.877 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 41
+0979.882 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 41 (uncompressed bytes in this segment=1448) in 0.01 seconds
+0979.890 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0979.901 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0979.902 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.907 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0979.920 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0979.932 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 5
+0979.934 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.936 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1279) in 0.01 seconds
+0979.944 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0979.955 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 54
+0979.957 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0979.962 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 69): 54 (uncompressed bytes in this segment=9145) in 0.01 seconds
+0979.972 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.6 KB)
+0979.973 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\hometools/wp-content/updraft/backup_2023-05-14-1002_hometools_40aac3382e06-db.gz (line 1924, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0979.976 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_options.table.tmpr1558.gz (1/53/fopen): adding to final database dump
+0980.002 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_options.table.gz (2/53/fopen): adding to final database dump
+0980.004 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_users.table.tmpr5.gz (3/53/fopen): adding to final database dump
+0980.006 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_users.table.gz (4/53/fopen): adding to final database dump
+0980.007 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_usermeta.table.tmpr124.gz (5/53/fopen): adding to final database dump
+0980.009 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_usermeta.table.gz (6/53/fopen): adding to final database dump
+0980.011 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_actions.table.tmpr44.gz (7/53/fopen): adding to final database dump
+0980.013 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_actions.table.gz (8/53/fopen): adding to final database dump
+0980.014 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/53/fopen): adding to final database dump
+0980.016 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_claims.table.gz (10/53/fopen): adding to final database dump
+0980.018 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/53/fopen): adding to final database dump
+0980.020 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_groups.table.gz (12/53/fopen): adding to final database dump
+0980.021 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_logs.table.tmpr89.gz (13/53/fopen): adding to final database dump
+0980.023 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_actionscheduler_logs.table.gz (14/53/fopen): adding to final database dump
+0980.025 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_commentmeta.table.tmpr3.gz (15/53/fopen): adding to final database dump
+0980.026 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_commentmeta.table.gz (16/53/fopen): adding to final database dump
+0980.028 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_comments.table.tmpr5.gz (17/53/fopen): adding to final database dump
+0980.030 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_comments.table.gz (18/53/fopen): adding to final database dump
+0980.031 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_links.table.tmpr0.gz (19/53/fopen): adding to final database dump
+0980.033 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_links.table.gz (20/53/fopen): adding to final database dump
+0980.035 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_postmeta.table.tmpr816.gz (21/53/fopen): adding to final database dump
+0980.037 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_postmeta.table.gz (22/53/fopen): adding to final database dump
+0980.039 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_posts.table.tmpr143.gz (23/53/fopen): adding to final database dump
+0980.042 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_posts.table.gz (24/53/fopen): adding to final database dump
+0980.043 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_term_relationships.table.tmpr100001.gz (25/53/fopen): adding to final database dump
+0980.045 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_term_relationships.table.gz (26/53/fopen): adding to final database dump
+0980.046 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_term_taxonomy.table.tmpr37.gz (27/53/fopen): adding to final database dump
+0980.048 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_term_taxonomy.table.gz (28/53/fopen): adding to final database dump
+0980.050 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_termmeta.table.tmpr26.gz (29/53/fopen): adding to final database dump
+0980.052 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_termmeta.table.gz (30/53/fopen): adding to final database dump
+0980.053 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_terms.table.tmpr37.gz (31/53/fopen): adding to final database dump
+0980.058 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_terms.table.gz (32/53/fopen): adding to final database dump
+0980.060 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/53/fopen): adding to final database dump
+0980.062 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_category_lookup.table.gz (34/53/fopen): adding to final database dump
+0980.063 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_meta_lookup.table.tmpr55.gz (35/53/fopen): adding to final database dump
+0980.065 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_meta_lookup.table.gz (36/53/fopen): adding to final database dump
+0980.067 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/53/fopen): adding to final database dump
+0980.069 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_reserved_stock.table.gz (38/53/fopen): adding to final database dump
+0980.070 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/53/fopen): adding to final database dump
+0980.072 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_tax_rate_classes.table.gz (40/53/fopen): adding to final database dump
+0980.073 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_order_itemmeta.table.tmpr19.gz (41/53/fopen): adding to final database dump
+0980.075 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_order_itemmeta.table.gz (42/53/fopen): adding to final database dump
+0980.077 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/53/fopen): adding to final database dump
+0980.078 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/53/fopen): adding to final database dump
+0980.080 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_e_events.table.tmpr0.gz (45/53/fopen): adding to final database dump
+0980.082 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_e_events.table.gz (46/53/fopen): adding to final database dump
+0980.084 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_admin_note_actions.table.tmpr666.gz (47/53/fopen): adding to final database dump
+0980.086 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_admin_note_actions.table.gz (48/53/fopen): adding to final database dump
+0980.088 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_admin_notes.table.tmpr72.gz (49/53/fopen): adding to final database dump
+0980.090 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_admin_notes.table.gz (50/53/fopen): adding to final database dump
+0980.092 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_customer_lookup.table.tmpr2.gz (51/53/fopen): adding to final database dump
+0980.094 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_customer_lookup.table.gz (52/53/fopen): adding to final database dump
+0980.096 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_download_log.table.tmpr0.gz (53/53/fopen): adding to final database dump
+0980.116 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_download_log.table.gz (54/53/fopen): adding to final database dump
+0980.137 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (55/53/fopen): adding to final database dump
+0980.154 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_coupon_lookup.table.gz (56/53/fopen): adding to final database dump
+0980.157 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_product_lookup.table.tmpr3.gz (57/53/fopen): adding to final database dump
+0980.159 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_product_lookup.table.gz (58/53/fopen): adding to final database dump
+0980.161 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_stats.table.tmpr143.gz (59/53/fopen): adding to final database dump
+0980.165 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_stats.table.gz (60/53/fopen): adding to final database dump
+0980.167 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (61/53/fopen): adding to final database dump
+0980.169 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_order_tax_lookup.table.gz (62/53/fopen): adding to final database dump
+0980.171 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (63/53/fopen): adding to final database dump
+0980.173 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_attributes_lookup.table.gz (64/53/fopen): adding to final database dump
+0980.176 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_download_directories.table.tmpr3.gz (65/53/fopen): adding to final database dump
+0980.178 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_product_download_directories.table.gz (66/53/fopen): adding to final database dump
+0980.180 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_rate_limits.table.tmpr0.gz (67/53/fopen): adding to final database dump
+0980.181 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_rate_limits.table.gz (68/53/fopen): adding to final database dump
+0980.183 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_webhooks.table.tmpr0.gz (69/53/fopen): adding to final database dump
+0980.185 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wc_webhooks.table.gz (70/53/fopen): adding to final database dump
+0980.187 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (71/53/fopen): adding to final database dump
+0980.189 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_api_keys.table.gz (72/53/fopen): adding to final database dump
+0980.191 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (73/53/fopen): adding to final database dump
+0980.192 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_attribute_taxonomies.table.gz (74/53/fopen): adding to final database dump
+0980.194 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (75/53/fopen): adding to final database dump
+0980.195 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (76/53/fopen): adding to final database dump
+0980.197 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_log.table.tmpr0.gz (77/53/fopen): adding to final database dump
+0980.199 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_log.table.gz (78/53/fopen): adding to final database dump
+0980.201 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_order_items.table.tmpr3.gz (79/53/fopen): adding to final database dump
+0980.203 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_order_items.table.gz (80/53/fopen): adding to final database dump
+0980.205 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (81/53/fopen): adding to final database dump
+0980.206 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_payment_tokens.table.gz (82/53/fopen): adding to final database dump
+0980.208 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_sessions.table.tmpr10.gz (83/53/fopen): adding to final database dump
+0980.210 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_sessions.table.gz (84/53/fopen): adding to final database dump
+0980.211 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (85/53/fopen): adding to final database dump
+0980.213 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zone_locations.table.gz (86/53/fopen): adding to final database dump
+0980.215 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (87/53/fopen): adding to final database dump
+0980.217 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zone_methods.table.gz (88/53/fopen): adding to final database dump
+0980.219 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (89/53/fopen): adding to final database dump
+0980.221 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_shipping_zones.table.gz (90/53/fopen): adding to final database dump
+0980.223 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (91/53/fopen): adding to final database dump
+0980.225 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_tax_rate_locations.table.gz (92/53/fopen): adding to final database dump
+0980.226 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (93/53/fopen): adding to final database dump
+0980.228 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_woocommerce_tax_rates.table.gz (94/53/fopen): adding to final database dump
+0980.230 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (95/53/fopen): adding to final database dump
+0980.232 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_wpforms_tasks_meta.table.gz (96/53/fopen): adding to final database dump
+0980.234 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_indexable.table.tmpr45.gz (97/53/fopen): adding to final database dump
+0980.236 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_indexable.table.gz (98/53/fopen): adding to final database dump
+0980.238 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (99/53/fopen): adding to final database dump
+0980.245 (0) The time we have been running (980.2) is approaching the resumption interval (1010) - increasing resumption interval to 1011
+0980.249 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_indexable_hierarchy.table.gz (100/53/fopen): adding to final database dump
+0980.251 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_migrations.table.tmpr24.gz (101/53/fopen): adding to final database dump
+0980.253 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_migrations.table.gz (102/53/fopen): adding to final database dump
+0980.255 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_primary_term.table.tmpr6.gz (103/53/fopen): adding to final database dump
+0980.257 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_primary_term.table.gz (104/53/fopen): adding to final database dump
+0980.259 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_seo_links.table.tmpr70.gz (105/53/fopen): adding to final database dump
+0980.261 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db-table-wp_yoast_seo_links.table.gz (106/53/fopen): adding to final database dump
+0980.277 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db.gz: finished writing out complete database file (687.6 KB)
+0980.313 (0) Total database tables backed up: 53 (backup_2023-05-14-1002_hometools_40aac3382e06-db.gz, size: 704174, sha1: 38b627173ca278834b640619b7f1ebf501f40a58, sha256: 978ed33589ff20f3ba36baa006ac5e1380ccef19b29b9b8e18bd9fb61c0b2f20)
+0980.320 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2866, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\backup.php)
+0980.325 (0) backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip: plugins: This file has already been successfully uploaded
+0980.327 (0) backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip: themes: This file has already been successfully uploaded
+0980.328 (0) backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip: uploads: This file has already been successfully uploaded
+0980.330 (0) backup_2023-05-14-1002_hometools_40aac3382e06-others.zip: others: This file has already been successfully uploaded
+0980.332 (0) backup_2023-05-14-1002_hometools_40aac3382e06-db.gz: db: This file has not yet been successfully uploaded: will queue
+0980.334 (0) Saving backup history. Total backup size: 73.4 MB
+0980.339 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0980.344 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0980.346 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3daa4b970cd0dde15260048aa9750d45)
+0980.348 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0981.290 (0) Google Drive: quota usage: used=2841.1 MB, total=15360 MB, available=12518.9 MB
+0981.304 (0) Google Drive: backup_2023-05-14-1002_hometools_40aac3382e06-db.gz: Attempting to upload to Google Drive (into folder id: 1Vow0ptT68NjJbckRs8ROj356LASENNnY)
+0981.305 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0984.356 (0) The time we have been running (984.4) is approaching the resumption interval (1011) - increasing resumption interval to 1015
+0984.360 (0) Googledrive chunked upload: 100 % uploaded
+0984.365 (0) Google Drive: OK: Archive backup_2023-05-14-1002_hometools_40aac3382e06-db.gz uploaded in 3.06 seconds
+0984.369 (0) Recording as successfully uploaded: backup_2023-05-14-1002_hometools_40aac3382e06-db.gz
+0984.373 (0) Deleting local file: backup_2023-05-14-1002_hometools_40aac3382e06-db.gz: OK
+0984.376 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0984.379 (0) Number of backup sets in history: 3; groups (db): 1
+0984.380 (0) Examining (for databases) backup set with group_id=0, nonce=40aac3382e06, datestamp=1684058552 (May 14 2023 10:02:32)
+0984.382 (0) This backup set is the backup set just made, so will not be deleted.
+0984.382 (0) Examining (for databases) backup set with group_id=0, nonce=5adc4bcf2d56, datestamp=1683935145 (May 12 2023 23:45:45)
+0984.382 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0984.384 (0) Examining (for databases) backup set with group_id=0, nonce=e092ecc1fca2, datestamp=1683730006 (May 10 2023 14:46:46)
+0984.384 (0) 1683730006: db: this set includes a database (backup_2023-05-10-1446_hometools_e092ecc1fca2-db.gz); db count is now 2
+0984.384 (0) 1683730006: db: over retain limit (2); will delete this database
+0984.384 (0) Delete file: backup_2023-05-10-1446_hometools_e092ecc1fca2-db.gz, service=googledrive
+0984.386 (0) Deleting local copy (backup_2023-05-10-1446_hometools_e092ecc1fca2-db.gz)
+0984.388 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0986.294 (0) Google Drive: backup_2023-05-10-1446_hometools_e092ecc1fca2-db.gz: Deletion failed: file was not found
+0986.304 (0) The time we have been running (986.3) is approaching the resumption interval (1015) - increasing resumption interval to 1017
+0986.308 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0986.309 (0) Number of backup sets in history: 3; groups (files): 1
+0986.311 (0) Examining (for files) backup set with nonce=40aac3382e06, datestamp=1684058552 (May 14 2023 10:02:32)
+0986.311 (0) This backup set is the backup set just made, so will not be deleted.
+0986.313 (0) This backup set is the backup set just made, so will not be deleted.
+0986.313 (0) This backup set is the backup set just made, so will not be deleted.
+0986.313 (0) This backup set is the backup set just made, so will not be deleted.
+0986.313 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0986.315 (0) Examining (for files) backup set with nonce=5adc4bcf2d56, datestamp=1683935145 (May 12 2023 23:45:45)
+0986.315 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0986.315 (0) Examining (for files) backup set with nonce=e092ecc1fca2, datestamp=1683730006 (May 10 2023 14:46:46)
+0986.315 (0) plugins: over retain limit (2); will delete this file entity
+0986.315 (0) themes: over retain limit (2); will delete this file entity
+0986.315 (0) uploads: over retain limit (2); will delete this file entity
+0986.315 (0) others: over retain limit (2); will delete this file entity
+0986.315 (0) Delete file: backup_2023-05-10-1446_hometools_e092ecc1fca2-plugins.zip, service=googledrive
+0986.318 (0) Deleting local copy (backup_2023-05-10-1446_hometools_e092ecc1fca2-plugins.zip)
+0986.320 (0) Delete file: backup_2023-05-10-1446_hometools_e092ecc1fca2-themes.zip, service=googledrive
+0986.322 (0) Deleting local copy (backup_2023-05-10-1446_hometools_e092ecc1fca2-themes.zip)
+0986.324 (0) Delete file: backup_2023-05-10-1446_hometools_e092ecc1fca2-uploads.zip, service=googledrive
+0986.326 (0) Deleting local copy (backup_2023-05-10-1446_hometools_e092ecc1fca2-uploads.zip)
+0986.329 (0) Delete file: backup_2023-05-10-1446_hometools_e092ecc1fca2-others.zip, service=googledrive
+0986.331 (0) Deleting local copy (backup_2023-05-10-1446_hometools_e092ecc1fca2-others.zip)
+0986.333 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, C:\xampp\htdocs\hometools\wp-content\plugins\updraftplus\includes\Google\Service\Drive.php)
+0987.386 (0) Google Drive: backup_2023-05-10-1446_hometools_e092ecc1fca2-plugins.zip: Deletion failed: file was not found
+0987.400 (0) Google Drive: backup_2023-05-10-1446_hometools_e092ecc1fca2-themes.zip: Deletion failed: file was not found
+0987.401 (0) Google Drive: backup_2023-05-10-1446_hometools_e092ecc1fca2-uploads.zip: Deletion failed: file was not found
+0987.403 (0) Google Drive: backup_2023-05-10-1446_hometools_e092ecc1fca2-others.zip: Deletion failed: file was not found
+0987.409 (0) The time we have been running (987.4) is approaching the resumption interval (1017) - increasing resumption interval to 1018
+0987.412 (0) This backup set is now empty; will remove from history
+0987.415 (0) Deleting log file (log.e092ecc1fca2.txt)
+0987.416 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0987.424 (0) Resume backup (40aac3382e06, 0): finish run
+0987.428 (0) Decremented the semaphore (fd) by 1
+0987.430 (0) Semaphore (fd) unlocked
+0987.431 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0987.442 (0) Deleting zip manifest (backup_2023-05-14-1002_hometools_40aac3382e06-plugins.zip.list.tmp)
+0987.444 (0) Deleting zip manifest (backup_2023-05-14-1002_hometools_40aac3382e06-themes.zip.list.tmp)
+0987.449 (0) Deleting zip manifest (backup_2023-05-14-1002_hometools_40aac3382e06-uploads.zip.list.tmp)
+0987.452 (0) Deleting zip manifest (backup_2023-05-14-1002_hometools_40aac3382e06-others.zip.list.tmp)
+0987.454 (0) Fetching RSS news feed
+0988.150 (0) Fetched RSS news feed; result is a: SimplePie
+0988.160 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: abuha...
+0988.171 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0988.173 (0) The backup apparently succeeded and is now complete
